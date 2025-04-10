@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer form</title>
+
+
+</head>
+<body>
+    <h1>Hola, soy Marcelo Tipian</h1>
+    <h2>estudiante de Progra Web</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PeoRKTf31s-ymavJDHvOWl9FKybE7Gbikw&s">
+    <br/>
+    <form action="form2.html">
+        <label for="nombre">nombre: </label>
+        <input type="text" name="nombre" id="">
+        <br/>
+        <label for="edad">edad: </label>
+        <input type="number" name="edad" id="" min="1" max="100">
+        <br/>
+        <label for="correo">correo electronico: </label>
+        <input type="email" name="correo" id="">
+        <br/>
+        <a>eres nuevo en programacion? </a>
+        <br/>
+        <input type="radio" name="respuesta" value="1"><label for="rpta">si</label>
+        <br/>
+        <input type="radio" name="respuesta" value="0"> <label for="rpta">no</label>
+        <br/>
+        <label for="lenguaje">que lenguaje te interesa? </label>
+        <br/>
+        <input type="text" name="lenguaje" id="">
+        <br/>
+        <a>temas que te gustaria aprender? </a>
+        <br/>
+        <input type="checkbox" name="tema1" value="1"><label for="genero">HTML</label>
+        <br/>
+        <input type="checkbox" name="tema2" value="2"> <label for="genero">CSS</label>
+        <br/>
+        <input type="checkbox" name="tema3" value="3"> <label for="genero">JS</label>
+        <br/>
+        <a>Por que te interesa la programacion?</a>
+        <br/>
+        <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>
+        <br/>
+        <a>en que horario prefieres estudiar</a>
+        <br/>
+        <select id="turno" name="turno">
+            <option value="mañana">Mañana</option>
+            <option value="tarde">Tarde</option>
+            <option value="noche">Noche</option>
+
+        </select>
+        <br/>
+        
+        <input type="radio" name="genero" value="F"><label for="genero">F</label>
+        <input type="radio" name="genero" value="M"> <label for="genero">M</label>
+        <br/>
+        <input type="submit" value="enviar y ver perfil de alumno B">
+        <br/>
+        <a>Alumno A-2025</a>
+
+
+    </form>
+   
+</body>
+</html>
